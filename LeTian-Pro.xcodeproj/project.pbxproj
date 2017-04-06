@@ -15,6 +15,7 @@
 		093DA70A1E95D1A1003CEDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DA7081E95D1A1003CEDD9 /* LaunchScreen.storyboard */; };
 		093DA7151E95D1A1003CEDD9 /* LeTian_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA7141E95D1A1003CEDD9 /* LeTian_ProTests.m */; };
 		093DA7201E95D1A1003CEDD9 /* LeTian_ProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA71F1E95D1A1003CEDD9 /* LeTian_ProUITests.m */; };
+		B8907E9126F90F7CDAF2FF50 /* libPods-LeTian-Pro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 239DDDC55C011ABE6BD96A34 /* libPods-LeTian-Pro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		093DA71B1E95D1A1003CEDD9 /* LeTian-ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeTian-ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		093DA71F1E95D1A1003CEDD9 /* LeTian_ProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTian_ProUITests.m; sourceTree = "<group>"; };
 		093DA7211E95D1A1003CEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239DDDC55C011ABE6BD96A34 /* libPods-LeTian-Pro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeTian-Pro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A4EE7562A82B14CB4A7AB9 /* Pods-LeTian-Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeTian-Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeTian-Pro/Pods-LeTian-Pro.release.xcconfig"; sourceTree = "<group>"; };
+		6AE56655255F60080EEC073C /* Pods-LeTian-Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeTian-Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeTian-Pro/Pods-LeTian-Pro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8907E9126F90F7CDAF2FF50 /* libPods-LeTian-Pro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0719805B09FE0F123AB38C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AE56655255F60080EEC073C /* Pods-LeTian-Pro.debug.xcconfig */,
+				36A4EE7562A82B14CB4A7AB9 /* Pods-LeTian-Pro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		093DA6EE1E95D1A1003CEDD9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				093DA7131E95D1A1003CEDD9 /* LeTian-ProTests */,
 				093DA71E1E95D1A1003CEDD9 /* LeTian-ProUITests */,
 				093DA6F81E95D1A1003CEDD9 /* Products */,
+				0719805B09FE0F123AB38C62 /* Pods */,
+				F98097B4C66EEFC82B016812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = "LeTian-ProUITests";
 			sourceTree = "<group>";
 		};
+		F98097B4C66EEFC82B016812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239DDDC55C011ABE6BD96A34 /* libPods-LeTian-Pro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093DA7241E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-Pro" */;
 			buildPhases = (
+				5C95B40E94AF1C7BBAD4BC77 /* [CP] Check Pods Manifest.lock */,
 				093DA6F31E95D1A1003CEDD9 /* Sources */,
 				093DA6F41E95D1A1003CEDD9 /* Frameworks */,
 				093DA6F51E95D1A1003CEDD9 /* Resources */,
+				ECBBFD7CFEAF2D74CD18E6BA /* [CP] Embed Pods Frameworks */,
+				656976447C378124E96DC466 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C95B40E94AF1C7BBAD4BC77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		656976447C378124E96DC466 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeTian-Pro/Pods-LeTian-Pro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBBFD7CFEAF2D74CD18E6BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeTian-Pro/Pods-LeTian-Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		093DA6F31E95D1A1003CEDD9 /* Sources */ = {
@@ -424,6 +499,7 @@
 		};
 		093DA7251E95D1A1003CEDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE56655255F60080EEC073C /* Pods-LeTian-Pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LeTian-Pro/Info.plist";
@@ -435,6 +511,7 @@
 		};
 		093DA7261E95D1A1003CEDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A4EE7562A82B14CB4A7AB9 /* Pods-LeTian-Pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LeTian-Pro/Info.plist";
