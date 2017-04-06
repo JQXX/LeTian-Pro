@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093DA6FC1E95D1A1003CEDD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA6FB1E95D1A1003CEDD9 /* main.m */; };
+		093DA6FF1E95D1A1003CEDD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA6FE1E95D1A1003CEDD9 /* AppDelegate.m */; };
+		093DA7021E95D1A1003CEDD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA7011E95D1A1003CEDD9 /* ViewController.m */; };
+		093DA7051E95D1A1003CEDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DA7031E95D1A1003CEDD9 /* Main.storyboard */; };
+		093DA7071E95D1A1003CEDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093DA7061E95D1A1003CEDD9 /* Assets.xcassets */; };
+		093DA70A1E95D1A1003CEDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DA7081E95D1A1003CEDD9 /* LaunchScreen.storyboard */; };
+		093DA7151E95D1A1003CEDD9 /* LeTian_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA7141E95D1A1003CEDD9 /* LeTian_ProTests.m */; };
+		093DA7201E95D1A1003CEDD9 /* LeTian_ProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093DA71F1E95D1A1003CEDD9 /* LeTian_ProUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093DA7111E95D1A1003CEDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093DA6EF1E95D1A1003CEDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093DA6F61E95D1A1003CEDD9;
+			remoteInfo = "LeTian-Pro";
+		};
+		093DA71C1E95D1A1003CEDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093DA6EF1E95D1A1003CEDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093DA6F61E95D1A1003CEDD9;
+			remoteInfo = "LeTian-Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093DA6F71E95D1A1003CEDD9 /* LeTian-Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeTian-Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093DA6FB1E95D1A1003CEDD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093DA6FD1E95D1A1003CEDD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093DA6FE1E95D1A1003CEDD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093DA7001E95D1A1003CEDD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093DA7011E95D1A1003CEDD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		093DA7041E95D1A1003CEDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093DA7061E95D1A1003CEDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093DA7091E95D1A1003CEDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093DA70B1E95D1A1003CEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093DA7101E95D1A1003CEDD9 /* LeTian-ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeTian-ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093DA7141E95D1A1003CEDD9 /* LeTian_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTian_ProTests.m; sourceTree = "<group>"; };
+		093DA7161E95D1A1003CEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093DA71B1E95D1A1003CEDD9 /* LeTian-ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeTian-ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093DA71F1E95D1A1003CEDD9 /* LeTian_ProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTian_ProUITests.m; sourceTree = "<group>"; };
+		093DA7211E95D1A1003CEDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093DA6F41E95D1A1003CEDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA70D1E95D1A1003CEDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA7181E95D1A1003CEDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093DA6EE1E95D1A1003CEDD9 = {
+			isa = PBXGroup;
+			children = (
+				093DA6F91E95D1A1003CEDD9 /* LeTian-Pro */,
+				093DA7131E95D1A1003CEDD9 /* LeTian-ProTests */,
+				093DA71E1E95D1A1003CEDD9 /* LeTian-ProUITests */,
+				093DA6F81E95D1A1003CEDD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093DA6F81E95D1A1003CEDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093DA6F71E95D1A1003CEDD9 /* LeTian-Pro.app */,
+				093DA7101E95D1A1003CEDD9 /* LeTian-ProTests.xctest */,
+				093DA71B1E95D1A1003CEDD9 /* LeTian-ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093DA6F91E95D1A1003CEDD9 /* LeTian-Pro */ = {
+			isa = PBXGroup;
+			children = (
+				093DA6FD1E95D1A1003CEDD9 /* AppDelegate.h */,
+				093DA6FE1E95D1A1003CEDD9 /* AppDelegate.m */,
+				093DA7001E95D1A1003CEDD9 /* ViewController.h */,
+				093DA7011E95D1A1003CEDD9 /* ViewController.m */,
+				093DA7031E95D1A1003CEDD9 /* Main.storyboard */,
+				093DA7061E95D1A1003CEDD9 /* Assets.xcassets */,
+				093DA7081E95D1A1003CEDD9 /* LaunchScreen.storyboard */,
+				093DA70B1E95D1A1003CEDD9 /* Info.plist */,
+				093DA6FA1E95D1A1003CEDD9 /* Supporting Files */,
+			);
+			path = "LeTian-Pro";
+			sourceTree = "<group>";
+		};
+		093DA6FA1E95D1A1003CEDD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093DA6FB1E95D1A1003CEDD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093DA7131E95D1A1003CEDD9 /* LeTian-ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				093DA7141E95D1A1003CEDD9 /* LeTian_ProTests.m */,
+				093DA7161E95D1A1003CEDD9 /* Info.plist */,
+			);
+			path = "LeTian-ProTests";
+			sourceTree = "<group>";
+		};
+		093DA71E1E95D1A1003CEDD9 /* LeTian-ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093DA71F1E95D1A1003CEDD9 /* LeTian_ProUITests.m */,
+				093DA7211E95D1A1003CEDD9 /* Info.plist */,
+			);
+			path = "LeTian-ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093DA6F61E95D1A1003CEDD9 /* LeTian-Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093DA7241E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-Pro" */;
+			buildPhases = (
+				093DA6F31E95D1A1003CEDD9 /* Sources */,
+				093DA6F41E95D1A1003CEDD9 /* Frameworks */,
+				093DA6F51E95D1A1003CEDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeTian-Pro";
+			productName = "LeTian-Pro";
+			productReference = 093DA6F71E95D1A1003CEDD9 /* LeTian-Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093DA70F1E95D1A1003CEDD9 /* LeTian-ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093DA7271E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-ProTests" */;
+			buildPhases = (
+				093DA70C1E95D1A1003CEDD9 /* Sources */,
+				093DA70D1E95D1A1003CEDD9 /* Frameworks */,
+				093DA70E1E95D1A1003CEDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093DA7121E95D1A1003CEDD9 /* PBXTargetDependency */,
+			);
+			name = "LeTian-ProTests";
+			productName = "LeTian-ProTests";
+			productReference = 093DA7101E95D1A1003CEDD9 /* LeTian-ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093DA71A1E95D1A1003CEDD9 /* LeTian-ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093DA72A1E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-ProUITests" */;
+			buildPhases = (
+				093DA7171E95D1A1003CEDD9 /* Sources */,
+				093DA7181E95D1A1003CEDD9 /* Frameworks */,
+				093DA7191E95D1A1003CEDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093DA71D1E95D1A1003CEDD9 /* PBXTargetDependency */,
+			);
+			name = "LeTian-ProUITests";
+			productName = "LeTian-ProUITests";
+			productReference = 093DA71B1E95D1A1003CEDD9 /* LeTian-ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093DA6EF1E95D1A1003CEDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = J;
+				TargetAttributes = {
+					093DA6F61E95D1A1003CEDD9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					093DA70F1E95D1A1003CEDD9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093DA6F61E95D1A1003CEDD9;
+					};
+					093DA71A1E95D1A1003CEDD9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093DA6F61E95D1A1003CEDD9;
+					};
+				};
+			};
+			buildConfigurationList = 093DA6F21E95D1A1003CEDD9 /* Build configuration list for PBXProject "LeTian-Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093DA6EE1E95D1A1003CEDD9;
+			productRefGroup = 093DA6F81E95D1A1003CEDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093DA6F61E95D1A1003CEDD9 /* LeTian-Pro */,
+				093DA70F1E95D1A1003CEDD9 /* LeTian-ProTests */,
+				093DA71A1E95D1A1003CEDD9 /* LeTian-ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093DA6F51E95D1A1003CEDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093DA70A1E95D1A1003CEDD9 /* LaunchScreen.storyboard in Resources */,
+				093DA7071E95D1A1003CEDD9 /* Assets.xcassets in Resources */,
+				093DA7051E95D1A1003CEDD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA70E1E95D1A1003CEDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA7191E95D1A1003CEDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093DA6F31E95D1A1003CEDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093DA7021E95D1A1003CEDD9 /* ViewController.m in Sources */,
+				093DA6FF1E95D1A1003CEDD9 /* AppDelegate.m in Sources */,
+				093DA6FC1E95D1A1003CEDD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA70C1E95D1A1003CEDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093DA7151E95D1A1003CEDD9 /* LeTian_ProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093DA7171E95D1A1003CEDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093DA7201E95D1A1003CEDD9 /* LeTian_ProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093DA7121E95D1A1003CEDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093DA6F61E95D1A1003CEDD9 /* LeTian-Pro */;
+			targetProxy = 093DA7111E95D1A1003CEDD9 /* PBXContainerItemProxy */;
+		};
+		093DA71D1E95D1A1003CEDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093DA6F61E95D1A1003CEDD9 /* LeTian-Pro */;
+			targetProxy = 093DA71C1E95D1A1003CEDD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093DA7031E95D1A1003CEDD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093DA7041E95D1A1003CEDD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093DA7081E95D1A1003CEDD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093DA7091E95D1A1003CEDD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093DA7221E95D1A1003CEDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093DA7231E95D1A1003CEDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093DA7251E95D1A1003CEDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LeTian-Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		093DA7261E95D1A1003CEDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LeTian-Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		093DA7281E95D1A1003CEDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LeTian-ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeTian-Pro.app/LeTian-Pro";
+			};
+			name = Debug;
+		};
+		093DA7291E95D1A1003CEDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LeTian-ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeTian-Pro.app/LeTian-Pro";
+			};
+			name = Release;
+		};
+		093DA72B1E95D1A1003CEDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LeTian-ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LeTian-Pro";
+			};
+			name = Debug;
+		};
+		093DA72C1E95D1A1003CEDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LeTian-ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J.LeTian-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LeTian-Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093DA6F21E95D1A1003CEDD9 /* Build configuration list for PBXProject "LeTian-Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093DA7221E95D1A1003CEDD9 /* Debug */,
+				093DA7231E95D1A1003CEDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093DA7241E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093DA7251E95D1A1003CEDD9 /* Debug */,
+				093DA7261E95D1A1003CEDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		093DA7271E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093DA7281E95D1A1003CEDD9 /* Debug */,
+				093DA7291E95D1A1003CEDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		093DA72A1E95D1A1003CEDD9 /* Build configuration list for PBXNativeTarget "LeTian-ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093DA72B1E95D1A1003CEDD9 /* Debug */,
+				093DA72C1E95D1A1003CEDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093DA6EF1E95D1A1003CEDD9 /* Project object */;
+}
